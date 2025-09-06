@@ -1,57 +1,42 @@
 <h1 align="center">🚗 Car Simulator - Python Game</h1>
+
 <p align="center">
-  <video width="700" height="350" controls>
+  <video width="700" height="400" controls>
     <source src="demovideo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </p>
 
-
 <p align="center">
-  <b>A 2D interactive car driving simulator built with Python and Pygame.</b><br>
-  Dodge randomly moving cars 🏎️, earn points 📊, and survive as long as possible. Includes countdown, background music 🎵, and real-time collision detection 💥.
+  A 2D car driving simulator built using <b>Python & Pygame</b>. Dodge multiple cars 🏎️, track your score 📊, and survive as long as possible. Includes countdown, background music 🎵, and real-time collision detection 💥. Designed for <b>Windows</b> platform.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat-square&logo=python"/>
-  <img src="https://img.shields.io/badge/Game-Pygame-red?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Platform-Windows-orange?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Pygame-Game%20Engine-orange?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Platform-Windows-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Status-Working-green?style=flat-square"/>
 </p>
 
 ---
 
-## 🧠 Features
-
-✅ Move car left/right with **arrow keys**  
-✅ Avoid 3 randomly moving enemy cars 🚗  
-✅ Countdown before the game starts ⏱️  
-✅ Score tracking and display 📊  
-✅ Collision detection with **sound feedback** 💥  
-✅ Background music 🎵  
-✅ Restart game with **Enter key** 🔁  
-
----
-
-## 🚀 Gameplay Mechanics
-
-- The player controls a car at the bottom of the screen.  
-- Enemy cars appear from top with random x-positions.  
-- Score increases as the player survives and avoids collisions.  
-- Game ends if the player crashes into an enemy car or hits the road boundary.  
-- Features smooth movement, dynamic speeds, and real-time scoring.  
+## 🚀 Features
+- **Car Movement:** Left/Right arrow keys to control the car  
+- **Multiple Obstacles:** 3 randomly moving cars to avoid  
+- **Score Tracking:** Points increase as cars pass successfully 📊  
+- **Collision Detection:** Game ends on crash 💥  
+- **Countdown & UI:** Start countdown and on-screen score  
+- **Background Music:** Looping background music 🎶  
 
 ---
 
 ## 🛠 Tech Stack
-
-- `Python 3.10+`  
-- `Pygame` for 2D game engine  
-- `Random` for enemy car positions  
-- `Math` for collision detection  
-- `Time` for countdown and game events  
+- **Language:** Python 3.x  
+- **Libraries:** Pygame, Random, Math, Time  
+- **Tools:** VS Code, Git, GitHub  
 
 ---
+
 
 ## 🧠 Skills & Learning
 
