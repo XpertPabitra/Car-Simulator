@@ -1,7 +1,7 @@
 <h1 align="center">🚗 Car Simulator - Python Game</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7TKxT3k9tq2q3Y7i/giphy.gif" width="300"/>
+  <img src="https://media.giphy.com/media/3o7TKzEOXz4RtK7A6w/giphy.gif" width="700" height="350"/>
 </p>
 
 <p align="center">
