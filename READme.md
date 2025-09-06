@@ -60,13 +60,16 @@
 - Optimize performance for smoother gameplay ⚡  
 
 ---
-
-## 🧩 Installation
-
+## 💻 Installation
 ```bash
-git clone https://github.com/your-username/car-simulator.git
-cd car-simulator
+# Clone the repository
+git clone https://github.com/XpertPabitra/Car-Simulator.git
+cd Car-Simulator
+
+# Install dependencies
 pip install pygame
+
+# Run the game
 python car.py
 
 
