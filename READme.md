@@ -1,10 +1,8 @@
 <h1 align="center">🚗 Car Simulator - Python Game</h1>
 
-<p align="center">
-  <img width="700" height="400" controls>
-    <source src="demovideo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <p align="center">
+  <img src="demo.gif" width="700" height="350"/>
+</p>
 </p>
 
 <p align="center">
