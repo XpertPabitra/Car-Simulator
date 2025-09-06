@@ -1,8 +1,11 @@
 <h1 align="center">🚗 Car Simulator - Python Game</h1>
-
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7TKzEOXz4RtK7A6w/giphy.gif" width="700" height="350"/>
+  <video width="700" height="350" controls>
+    <source src="demovideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
+
 
 <p align="center">
   <b>A 2D interactive car driving simulator built with Python and Pygame.</b><br>
