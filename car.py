@@ -34,16 +34,16 @@ pygame.mixer.init()
 
 # -------Load and resize cars------
 car = pygame.image.load('car.png')
-car = pygame.transform.scale(car, (30, 60))
+car = pygame.transform.scale(car, (30, 50))
 
 car1 = pygame.image.load('car1.jpeg')
-car1 = pygame.transform.scale(car1, (30, 60))
+car1 = pygame.transform.scale(car1, (30, 50))
 
 car2 = pygame.image.load('car2.png')
-car2 = pygame.transform.scale(car2, (30, 60))
+car2 = pygame.transform.scale(car2, (30, 50))
 
 car3 = pygame.image.load('car3.png')
-car3 = pygame.transform.scale(car3, (30, 60))
+car3 = pygame.transform.scale(car3, (30, 50))
 
 # ---------Functions---------
 def picture(x, y):
@@ -68,7 +68,7 @@ def show_crash(x, y):
 
 def iscollision(car_x, car_y, obj_x, obj_y):
     distance = math.sqrt((car_x - obj_x) ** 2 + (car_y - obj_y) ** 2)
-    return distance < 60
+    return distance < 30
 
 def over_font(x, y):
     over_font = font_score.render("Press Enter to continue", True, (0, 255, 0))
@@ -149,11 +149,13 @@ def gameloop():
             collision1 = iscollision(car_x, car_y, car1_x, car1_y)
             collision2 = iscollision(car_x, car_y, car2_x, car2_y)
             collision3 = iscollision(car_x, car_y, car3_x, car3_y)
-
+        
             if car_x < 185:
                 car_x = 185
-            if car_x > 483:
-                car_x = 483
+            if car_x > 583:
+                car_x = 583
+
+
 
             if collision1 or collision2 or collision3:
                 pygame.mixer.music.stop()
